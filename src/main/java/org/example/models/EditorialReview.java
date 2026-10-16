@@ -2,7 +2,7 @@ package org.example.models;
 
 import java.time.LocalDateTime;
 
-public class EditorialReview {
+public final class EditorialReview {
     private Long id;
     private Article article;
     private String decision;

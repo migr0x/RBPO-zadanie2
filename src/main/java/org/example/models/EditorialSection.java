@@ -1,6 +1,6 @@
 package org.example.models;
 
-public class EditorialSection {
+public final class EditorialSection {
     private Long id;
     private String name;
     private boolean availableForPublication;

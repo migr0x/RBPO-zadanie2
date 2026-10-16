@@ -1,0 +1,11 @@
+application:
+  name: editorial-service
+  description: REST API редакции новостного издания
+  version: 1.0.0
+  editorial:
+    default-article-status: DRAFT
+    default-review-decision: PENDING
+    default-issue-status: PLANNED
+  validation:
+    allow-empty-article-title: false
+    allow-empty-section-name: false

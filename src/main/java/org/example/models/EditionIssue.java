@@ -3,7 +3,7 @@ package org.example.models;
 import java.time.LocalDate;
 import java.util.List;
 
-public class EditionIssue {
+public final class EditionIssue {
     private Long id;
     private LocalDate date;
     private List<Article> articles;

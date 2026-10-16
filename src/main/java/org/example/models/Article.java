@@ -1,6 +1,6 @@
 package org.example.models;
 
-public class Article {
+public final class Article {
     private Long id;
     private EditorialSection section;
     private User author;
